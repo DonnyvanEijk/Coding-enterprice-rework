@@ -14,23 +14,94 @@ body {
     position: relative;
 }
 .nav-logo {
-    height: 10vh;
+    height: 10.5vh;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    transition: 500ms ease;
+
+    
+
+}
+
+.increase {
+    color:white;
+    font-size:30px; 
+    text-align: center;
+    margin-top: 10rem;
+}
+.albums {
+    color:gold
+}
+.mainbody {
+    background-color: #a02323;
+}
+
+.nav-logo:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+   
 }
 nav {
-    background-color: #7E0D0D;
+    background-image:linear-gradient(to right, rgb(124, 18, 18), #ab3d3d);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 0rem 5rem;
     width: 100vw;
+    
 }
 nav a {
-    color: #AE8A49;
+    color: gold;
     text-decoration: none;
     font-size: 3rem;
+    cursor: pointer;
+    
+    
+}
+header {
+    color:gold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav li:hover {
+transform: scale(1.1);
+color:gold;
+background-color: #b04747;
+padding:10px;
+border-radius: 10px;
+}
+span {
+    font-size: 20px;
+    
+}
+.also {
+background: rgb(255, 217, 0);
+background: linear-gradient(90deg, rgba(255, 217, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+position: absolute;
+width:50rem;
+left:5rem;
+padding:10px;
+cursor: pointer;
+border-radius: 10px;
+text-decoration: none;
+color:black;
+cursor: pointer;
+}
+.also h3 {
+    color:black
+}
+
+.highlighted {
+   font-size: 30px; 
 }
 nav li {
     list-style: none;
+    transition: 500ms ease;
 }
 nav ul {
     display: flex;
@@ -56,9 +127,9 @@ header {
     font-size: 5rem;
     height: 30rem;
 }
-footer {
-    background-color: black;
-    color: brown;
+.mainfooter {
+    background-color:#821f1f;
+    color: rgb(209, 178, 4);
     font-size: 3rem;
     height: 10vh;
     display: flex;
@@ -67,6 +138,60 @@ footer {
     align-items: center;
     padding: 0rem 5rem;
     width: 100vw;
+    position: relative;
+    top:36.4vh;
+    
+}
+
+.mainfooter3 {
+    background-color:#821f1f;
+    color: rgb(209, 178, 4);
+    font-size: 3rem;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    width: 100vw;
+    position: relative;
+    top:31.5vh;
+    
+}
+
+.mainfootermusicdev {
+    background-color:#821f1f;
+    color: rgb(209, 178, 4);
+    font-size: 3rem;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    width: 100vw;
+    position: relative;
+    top:0;
+    
+}
+.mainfootermusic {
+    background-color:#821f1f;
+    color: rgb(209, 178, 4);
+    font-size: 3rem;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem;
+    width: 100vw;
+    position: relative;
+    top:27.4vh;
+    
+}
+footer {
+    position: relative;
+    top:35.3vh
 }
 footer img {
     height: 10vh;
@@ -86,6 +211,7 @@ h2 {
 }
 h1 {
     font-size: 3rem;
+padding:20px;
 }
 p {
     font-size: 1.4rem;
@@ -106,3 +232,64 @@ iframe {
 iframe {
     border-radius: 12px;
 }
+
+.who {
+    color:gold;
+    background-color: #b04747;
+    padding:20px;
+    width:45vw;
+    margin-left:5rem;
+}
+
+.team {
+    color:gold;
+    background-color: #b04747;
+    padding:20px;
+    width:45vw;
+    margin-left:7rem;
+}
+
+.contentabout {
+    display: flex;
+    gap:5rem;
+}
+
+.msmaster {
+    
+    color:gold;
+    background-color: #b04747;
+    padding:20px;
+    
+    width:20vw;
+    margin-left:38rem;
+
+}
+
+.msmaster h4, h3, p {
+    color:gold;
+    font-size: 20px;
+}
+
+.downloadms button {
+    font-size:35px;
+    padding:10px;
+    background-color: #b04747;
+    border: none;
+    color:white;
+    transition: 500ms ease;
+    cursor: pointer;
+}
+
+.downloadms button:hover {
+    transform: scale(1.1);
+}
+
+.downloadms h2 {
+    color:gold;
+    font-size: 25px;
+}
+.contents {
+    display: flex;
+    gap:32vw
+}
+
